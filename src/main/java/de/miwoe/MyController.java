@@ -18,6 +18,7 @@ public class MyController {
     @RequestMapping(value = "/foo")
     public @ResponseBody String test() {
         logger.warn("foo {}", 1);
+        logger.debug("bar");
         return "foo";
     }
 

@@ -18,3 +18,11 @@ This means:
 - Basic setup in code
 - Environment specific setup in application.properties (or other possible config file)
 
+
+Basic setup:
+
+Can be made in logback-spring.xml. Configure whatever you want.
+
+Environment specific setup:
+
+Put
