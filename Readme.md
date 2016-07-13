@@ -25,4 +25,5 @@ Can be made in logback-spring.xml. Configure whatever you want.
 
 Environment specific setup:
 
-Put
+Put logging levels, paths in environment specific properties or other
+Spring configuration locations.
